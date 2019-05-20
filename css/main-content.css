@@ -1,0 +1,50 @@
+.main-content {
+    max-width: 530px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.main-content__title {
+    font-weight: bold;
+    font-size: 11pt;
+    color: #051FA5;
+    text-align: center;
+}
+
+.main-content__description {
+    color: #989898;
+    line-height: 140%;
+    font-size: 11pt;
+    text-align: justify;
+}
+
+.main-content__magazine {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.main-content__photo {
+    text-align: center;
+}
+
+.main-content__image, .main-content__license {
+    height: 120px;
+}
+
+.main-content__photo--width {
+    margin: 0;
+}
+
+.checkbox__Label--fontSize {
+    text-align: center;
+    color: #989898;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.main-content__socialNetworks {
+    width: 316px;
+    margin: 20px auto;
+    border: none;
+}

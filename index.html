@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <title>Test</title>
+    <link href="css/style.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript">
+        function clock() {
+            var d = new Date();
+            var month_num = d.getMonth()
+            var day = d.getDate();
+            month = new Array("января", "февраля", "марта", "апреля", "мая", "июня",
+                "июля", "августа", "сентября", "октября", "ноября", "декабря");
+            if (day <= 9) day = "0" + day;
+            date_time = "Сегодня - " + day + " " + month[month_num] + " " + d.getFullYear() +
+        if (document.layers) {
+                document.layers.doc_time.document.write(date_time);
+                document.layers.doc_time.document.close();
+            }
+            else document.getElementById("doc_time").innerHTML = date_time;
+        }
+    </script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <div class="header__logo">
+                <img class="header__logo-image" src="img/logo.jpg" alt="">
+                <h2 class="header__logo-titleFirst">
+                    Новый бизнес университет
+                </h2>
+                <p class="header__logo-titleSecond">
+                    Международный Центр Дистанционного Образования
+                </p>
+            </div>
+            <div class="header__feedBackForm">
+                <h3 class="header__feedBackForm-titleFirst">
+                    Полный курс кулинарного дела
+                </h3>
+                <h3 class="header__feedBackForm-titleSecond">
+                    Кулинар-эксперт
+                </h3>
+                <p class="header__feedBackForm-titleThird">
+                    Повар 6-го разряда
+                </p>
+                <div class="header__feedBackForm-video">
+                    <img class="header__video-image" src="img/video.jpg" alt="видео">
+                    <form class="feedBackForm" action="/" method="POST">
+                        <input type="text" class="name" name="Введите имя" placeholder="Имя" required>
+                        <input type="text" class="email" name="Введите E-mail" placeholder="E-mail" required>
+                        <div class="feedBackForm__checkBox">
+                            <input type="checkbox" required />
+                            <label class="checkbox__Label">
+                                Согласие на обработку персональных данных
+                            </label>
+                        </div>
+                        <div class="feedBackForm__startEducation">
+                            <h1 class="feedBackForm__startEducation-titleFirst">
+                                Начать обучение бесплатно
+                            </h1>
+                            <p class="feedBackForm__startEducation-titleSecond">
+                                и посмотреть свой будущий диплом
+                            </p>
+                            <p id="doc_time">
+                                сегодня 25.04.2019
+                            </p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <h4 class="main-content__title">
+                Получи официальный гос. Диплом с международным
+                <br>
+                приложением в кратчайшие сроки
+            </h4>
+            <p class="main-content__description">
+                Этот содержательный курс даст вам именно те знания, которые
+                вы ищите. Он поможет вам обрести уверенность и стать более
+                компетентным в своей сфере. Не откладывайте ваше развитие
+                и профессиональный рост на потом - запишитесь на курс и
+            </p>
+            <figure class="main-content__photo">
+                <img class="main-content__license" src="img/license.jpg" alt="Лицензия">
+                <figcaption class="checkbox__Label--fontSize">
+                    Лицензия на образовательную деятельность №038379
+                </figcaption>
+            </figure>
+            <figure class="main-content__photo--width">
+                <img class="main-content__image" src="img/diploma-first page.jpg" alt="Лицензия">
+                <img class="main-content__image" src="img/diploma-second page.jpg" alt="Лицензия">
+                <img class="main-content__image" src="img/diploma-third page.jpg" alt="Лицензия">
+                <figcaption class="checkbox__Label--fontSize">
+                    Лицензия на образовательную деятельность №038379
+                </figcaption>
+            </figure>
+            <figure class="main-content__photo">
+                <img class="main-content__license" src="img/diploma-fourth page.jpg" alt="Лицензия">
+                <figcaption class="checkbox__Label--fontSize">
+                    Лицензия на образовательную деятельность №038379
+                </figcaption>
+            </figure>
+            <h4 class="main-content__title">
+                Осваивай новые знания быстрее и проще на современной СЛАЙД платформе обучения
+            </h4>
+            <p class="main-content__description">
+                Этот содержательный курс даст вам именно те знания, которые
+                вы ищите. Он поможет вам обрести уверенность и стать более
+                компетентным в своей сфере. Не откладывайте ваше развитие
+                и профессиональный рост на потом - запишитесь на курс и
+                уже сегодня вы станете ближе к своей мечте.
+            </p>
+            <div class="main-content__magazine">
+                <img src="img/magazine-first page.jpg" alt="">
+                <img src="img/magazine-second page.jpg" alt="">
+                <img src="img/magazine-third page.jpg" alt="">
+            </div>
+            <p class="main-content__description">
+                Этот содержательный курс даст вам именно те знания, которые
+                вы ищите. Он поможет вам обрести уверенность и стать более
+                компетентным в своей сфере. Не откладывайте ваше развитие
+                и профессиональный рост на потом - запишитесь на курс и
+                уже сегодня вы станете ближе к своей мечте.
+            </p>
+        </div>
+        <div class="header__feedBackForm">
+            <h3 class="header__feedBackForm-titleFirst">
+                Полный курс кулинарного дела
+            </h3>
+            <h3 class="header__feedBackForm-titleSecond">
+                Кулинар-эксперт
+            </h3>
+            <p class="header__feedBackForm-titleThird">
+                Повар 6-го разряда
+            </p>
+            <div class="header__feedBackForm-video">
+                <img class="header__video-image" src="img/video.jpg" alt="видео">
+                <form class="feedBackForm" action="/" method="POST">
+                    <input type="text" class="name" name="Введите имя" placeholder="Имя" required>
+                    <input type="text" class="email" name="Введите E-mail" placeholder="E-mail" required>
+                    <div class="feedBackForm__checkBox">
+                        <input type="checkbox" required />
+                        <label class="checkbox__Label">
+                            Согласие на обработку персональных данных
+                        </label>
+                    </div>
+                    <div class="feedBackForm__startEducation">
+                        <h1 class="feedBackForm__startEducation-titleFirst">
+                            Начать обучение бесплатно
+                        </h1>
+                        <p class="feedBackForm__startEducation-titleSecond">
+                            и посмотреть свой будущий диплом
+                        </p>
+                        <p id="doc_time">
+                            сегодня 25.04.2019
+                        </p>
+                    </div>
+                </form>
+                <img class="main-content__socialNetworks" src="img/Безымянный.jpg" alt="">
+            </div>
+        </div>
+        <script type="text/javascript">
+            clock();
+        </script>
+    </div>
+    <footer>
+        <a class="footer__href" href="">
+            ВОЙТИ В ЛИЧНЫЙ КАБИНЕТ
+        </a>
+        <a class="footer__href" href="">
+            УЗНАТЬ БОЛЬШЕ ОБ НБУ
+        </a>
+        <a class="footer__href" href="">
+            ВЫБРАТЬ СФЕРУ ОБУЧЕНИЯ
+        </a>
+        <a class="footer__href" href="">
+            УЗНАТЬ СТОИМОСТЬ
+        </a>
+        <a class="footer__href" href="">
+            КОНТАКТЫ
+        </a>
+        <p class="footer__date">
+            Профессиональные курсы с 2001 года
+        </p>
+    </footer>
+    </div>
+</body>
