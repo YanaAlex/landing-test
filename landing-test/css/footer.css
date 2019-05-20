@@ -1,0 +1,21 @@
+footer {
+    background-color:  #989898;
+    width: 100%;
+    /* text-align: center; */
+}
+
+.footer__href {
+    display: block;
+    font-size: 9pt;
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.footer__date {
+    display: block;
+    font-size: 7pt;
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+}

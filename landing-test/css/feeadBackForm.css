@@ -1,0 +1,73 @@
+.feedBackForm {
+    display: flex;
+    flex-direction: column;
+    background-color: #989898;
+}
+
+input {
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+    text-align: start;
+}
+
+input:not(:first-child) {
+    margin: 0 10px;
+}
+
+.feedBackForm__checkBox {
+    margin: 0;
+    color: #fff;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+}
+
+.feedBackForm__startEducation {
+    background-color: #051fa5;
+    color: #fff;
+    text-align: center;
+    line-height: 140%;
+    padding: 10px 0;
+}
+
+.header__feedBackForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header__feedBackForm-titleFirst {
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+.header__feedBackForm-titleSecond {
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+.header__feedBackForm-titleThird {
+    font-size: 10pt;
+    font-weight: normal;
+}
+
+.checkbox__Label {
+    font-size: 7pt;
+    font-weight: normal;
+}
+
+.feedBackForm__startEducation-titleFirst {
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+.feedBackForm__startEducation-titleSecond {
+    font-size: 11pt;
+    font-weight: normal;
+}
+
+#doc_time {
+    font-size: 9pt;
+    font-weight: normal
+}

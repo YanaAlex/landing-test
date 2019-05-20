@@ -1,0 +1,44 @@
+.header__logo, .header__feedBackForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header__feedBackForm-titleFirst {
+    margin-bottom: 0;
+}
+
+.header__feedBackForm-titleSecond {
+    margin: 0;
+}
+
+.header__feedBackForm-titleThird {
+    margin-bottom: 10px;
+}
+
+.header__logo-titleFirst, .header__logo-titleSecond, .header__feedBackForm-titleThird {
+    color: #989898;
+}
+
+.header__feedBackForm-titleSecond {
+    text-transform: uppercase;
+}
+
+.header__feedBackForm-titleFirst, .header__feedBackForm-titleSecond {
+    color: #051fa5;
+}
+
+.header__video-image {
+    display: flex;
+}
+
+.header__logo-titleFirst {
+    font-size: 13.5pt;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.header__logo-titleSecond {
+    font-size: 8.5pt;
+    font-weight: 400;
+}
