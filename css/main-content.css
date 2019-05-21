@@ -21,7 +21,7 @@
 .main-content__magazine {
     display: flex;
     justify-content: space-between;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 
 .main-content__photo {
