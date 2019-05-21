@@ -1,7 +1,6 @@
 footer {
     background-color:  #989898;
     width: 100%;
-    /* text-align: center; */
 }
 
 .footer__href {
@@ -18,4 +17,9 @@ footer {
     font-size: 7pt;
     color: #FFF;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 0;
+}
+
+.footer__navigation {
+    margin: 20px auto;
 }
